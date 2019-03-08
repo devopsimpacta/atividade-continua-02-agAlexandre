@@ -1,5 +1,5 @@
 .progress{
-    height: 15px;
+    height: 10px;
     background-color: #777;
     position: relative;
 }
@@ -8,12 +8,14 @@
    position: absolute;
    height: 100%;
    background-color: #add555;
-   animation: progress-animation 6s infinite;
+   animation: progress-animation 5s infinite;
 }
 
 
 @keyframes progress-animation{
     0% { width: 0%; }
+
+    
     
     100% { width: 100%}
     
